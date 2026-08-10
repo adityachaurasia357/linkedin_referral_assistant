@@ -15,7 +15,7 @@ except ImportError:
     print("Missing dependency 'selenium'. Install it with:\n    pip install -r requirements.txt")
     sys.exit(1)
 
-from core.app import main
+from referral_bot.app import main
 
 if __name__ == "__main__":
     main()
